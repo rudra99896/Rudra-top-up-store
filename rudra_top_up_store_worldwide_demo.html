@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<title>RUDRA TOP UP STORE</title>
+<style>
+:root{--bg:#090909;--panel:#151515;--panel2:#1d1d1d;--red:#ff3038;--red2:#b60012;--text:#f7f7f7;--muted:#aaa;--line:#303030}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#3a080d 0,transparent 32%),var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#090909ed;border-bottom:1px solid #3b171a;backdrop-filter:blur(10px)}
+.wrap{width:min(1100px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:15px 0;gap:12px}.brand{font-weight:900;letter-spacing:1px;font-size:18px}.brand b{color:var(--red)}.badge{font-size:11px;border:1px solid var(--red);color:#ff7b80;padding:5px 8px;border-radius:20px}
+.hero{padding:54px 0 34px;text-align:center}.eyebrow{color:#ff656b;font-weight:bold;letter-spacing:3px;font-size:12px}.hero h1{font-size:clamp(34px,7vw,66px);line-height:1;margin:14px 0}.hero h1 span{color:var(--red);text-shadow:0 0 22px #ff303855}.hero p{color:var(--muted);max-width:600px;margin:0 auto 22px;line-height:1.6}.notice{display:inline-block;background:#261012;border:1px solid #6c252b;color:#ffb8bb;border-radius:9px;padding:10px 13px;font-size:12px}
+section{padding:24px 0 38px}.section-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}.section-title h2{font-size:23px;margin:0}.section-title small{color:var(--muted)}
+.games{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.game{background:linear-gradient(145deg,#202020,#111);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;align-items:center;gap:15px}.icon{width:58px;height:58px;border-radius:14px;background:linear-gradient(145deg,#ff4048,#70000c);display:grid;place-items:center;font-size:27px}.game h3{margin:0 0 5px}.game p{margin:0;color:var(--muted);font-size:13px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.product{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:17px}.product .qty{font-size:19px;font-weight:800}.product .game-label{color:#ff747a;font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}.price{font-size:21px;font-weight:900;margin:9px 0 13px}.btn{border:0;border-radius:8px;background:linear-gradient(90deg,var(--red),var(--red2));color:white;padding:11px 14px;font-weight:bold;cursor:pointer;width:100%}.btn:hover{filter:brightness(1.12)}.btn.secondary{background:#292929;border:1px solid #555}.orderbox{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;max-width:700px;margin:auto}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px}label{display:block;color:#ddd;font-size:13px;margin-bottom:7px}input,select{width:100%;background:#090909;color:white;border:1px solid #444;border-radius:8px;padding:12px;font-size:15px;outline:none}input:focus,select:focus{border-color:var(--red)}.full{grid-column:1/-1}.paychoices{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.paychoice{background:#202020;border:1px solid #444;border-radius:9px;padding:12px;text-align:center;font-size:13px}.paychoice input{width:auto;accent-color:var(--red)}.summary{background:#0b0b0b;border:1px dashed #555;border-radius:9px;padding:13px;margin:15px 0;display:flex;justify-content:space-between;gap:10px}.muted{color:var(--muted);font-size:12px;line-height:1.5}.result{display:none;margin-top:14px;background:#102015;border:1px solid #28633a;color:#b7f3c7;padding:13px;border-radius:9px;line-height:1.5}.footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:12px;text-align:center}
+@media(max-width:700px){.products{grid-template-columns:repeat(2,1fr)}.games{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.full{grid-column:auto}}
+@media(max-width:390px){.products{grid-template-columns:1fr}.paychoices{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><div class="brand">🔴 RUDRA <b>TOP UP STORE</b></div><span class="badge">WORLDWIDE DEMO</span></div></header>
+<main class="wrap">
+<div class="hero">
+<div class="eyebrow">LEVEL UP YOUR GAME</div>
+<h1>RUDRA <span>TOP UP</span> STORE</h1>
+<p>Worldwide customers ke liye Free Fire Diamonds aur WePlay Coins ka gaming top-up storefront demo.</p>
+<div class="notice">⚠ Worldwide demo mode: prices are illustrative; no real payment or recharge is processed.</div>
+</div>
+<section>
+<div class="section-title"><h2>Choose Your Game</h2><small>Game select karein</small></div>
+<div class="games">
+<div class="game"><div class="icon">💎</div><div><h3>Free Fire</h3><p>Diamond top-up packages</p></div></div>
+<div class="game"><div class="icon">🎮</div><div><h3>WePlay</h3><p>Coin top-up packages</p></div></div>
+</div>
+</section>
+<section>
+<div class="section-title"><h2>Popular Packages</h2><small>Sample prices only · currency selector below</small></div>
+<div style="max-width:260px;margin:0 0 15px"><label for="currency">Display currency</label><select id="currency"><option value="INR">INR — Indian Rupee</option><option value="USD">USD — US Dollar</option><option value="EUR">EUR — Euro</option><option value="GBP">GBP — British Pound</option><option value="AED">AED — UAE Dirham</option></select></div>
+<div class="products" id="products"></div>
+</section>
+<section id="order">
+<div class="section-title"><h2>Place Demo Order</h2><small>Test order only</small></div>
+<div class="orderbox">
+<form id="orderForm">
+<div class="formgrid">
+<div><label for="game">Game</label><select id="game" required><option value="">Select game</option><option>Free Fire</option><option>WePlay</option></select></div>
+<div><label for="package">Package</label><select id="package" required><option value="">Choose package</option></select></div>
+<div><label for="player">Player UID</label><input id="player" required maxlength="40" placeholder="Enter your in-game UID"></div>
+<div><label for="contact">Contact (optional)</label><input id="contact" maxlength="60" placeholder="Email or phone"></div>
+<div class="full"><label>Demo payment method</label><div class="paychoices">
+<label class="paychoice"><input type="radio" name="pay" value="UPI QR" checked> UPI QR</label>
+<label class="paychoice"><input type="radio" name="pay" value="GPay / PhonePe"> GPay / PhonePe</label>
+<label class="paychoice"><input type="radio" name="pay" value="Razorpay"> Razorpay</label>
+</div></div>
+</div>
+<div class="summary"><span id="summaryName">Package not selected</span><strong id="summaryPrice">₹0</strong></div>
+<p class="muted">Yeh sirf front-end demo hai. Koi UPI PIN, OTP, card number ya password yahan enter na karein. Payment method select karne se payment initiate nahi hota.</p>
+<button class="btn" type="submit">Create Demo Order</button>
+<div class="result" id="result" role="status"></div>
+</form>
+</div>
+</section>
+<section>
+<div class="section-title"><h2>Order Lookup</h2><small>Is browser mein banaye gaye demo orders</small></div>
+<div class="orderbox">
+<label for="lookup">Demo Order ID</label><input id="lookup" placeholder="Example: RUD-123456">
+<button class="btn secondary" style="margin-top:10px" id="lookupBtn" type="button">Check Demo Status</button>
+<div class="result" id="lookupResult"></div>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="wrap">© 2026 RUDRA TOP UP STORE · Worldwide demo storefront · Not affiliated with Garena or WePlay.</div></footer>
+<script>
+const packages=[
+ {game:"Free Fire",name:"100 Diamonds (sample)",price:80},
+ {game:"Free Fire",name:"310 Diamonds (sample)",price:240},
+ {game:"Free Fire",name:"520 Diamonds (sample)",price:400},
+ {game:"WePlay",name:"Small Coin Pack (sample)",price:99},
+ {game:"WePlay",name:"Medium Coin Pack (sample)",price:199},
+ {game:"WePlay",name:"Large Coin Pack (sample)",price:399}
+];
+const products=document.getElementById('products');
+const currencySelect=document.getElementById('currency');
+const rates={INR:1,USD:0.012,EUR:0.011,GBP:0.0094,AED:0.044};
+const symbols={INR:'₹',USD:'$',EUR:'€',GBP:'£',AED:'د.إ'};
+function displayPrice(inr){
+ const c=currencySelect.value;
+ return symbols[c]+(inr*rates[c]).toLocaleString(undefined,{minimumFractionDigits:c==='INR'?0:2,maximumFractionDigits:c==='INR'?0:2});
+}
+const game=document.getElementById('game'), pkg=document.getElementById('package');
+function renderProducts(){
+ products.innerHTML=packages.map((p,i)=>`<article class="product"><div class="game-label">${p.game}</div><div class="qty">${p.name}</div><div class="price">${displayPrice(p.price)}</div><button class="btn" type="button" onclick="choosePackage(${i})">Select Package</button></article>`).join('');
+}
+function fillPackages(selected){
+ const list=packages.map((p,i)=>({p,i})).filter(x=>!game.value||x.p.game===game.value);
+ pkg.innerHTML='<option value="">Choose package</option>'+list.map(x=>`<option value="${x.i}">${x.p.name} — ₹${x.p.price}</option>`).join('');
+ if(selected!==undefined)pkg.value=String(selected);
+ updateSummary();
+}
+function choosePackage(i){game.value=packages[i].game;fillPackages(i);document.getElementById('order').scrollIntoView({behavior:'smooth'});}
+function updateSummary(){const p=packages[Number(pkg.value)];document.getElementById('summaryName').textContent=p?p.name:'Package not selected';document.getElementById('summaryPrice').textContent=p?displayPrice(p.price):displayPrice(0);}
+game.addEventListener('change',()=>fillPackages());pkg.addEventListener('change',updateSummary);currencySelect.addEventListener('change',()=>{renderProducts();updateSummary();});
+renderProducts();
+document.getElementById('orderForm').addEventListener('submit',e=>{
+ e.preventDefault();const p=packages[Number(pkg.value)];if(!p)return;
+ const id='RUD-'+Math.floor(100000+Math.random()*900000);
+ const order={id,game:p.game,package:p.name,price:p.price,uid:document.getElementById('player').value.trim(),contact:document.getElementById('contact').value.trim(),payment:document.querySelector('input[name="pay"]:checked').value,status:'DEMO ONLY — NOT PAID',created:new Date().toLocaleString()};
+ const orders=JSON.parse(localStorage.getItem('rudraDemoOrders')||'[]');orders.push(order);localStorage.setItem('rudraDemoOrders',JSON.stringify(orders));
+ const r=document.getElementById('result');r.style.display='block';r.innerHTML=`<strong>Demo order created: ${id}</strong><br>Game: ${order.game}<br>Package: ${order.package}<br>Amount: ${displayPrice(order.price)} (display estimate)<br>Status: ${order.status}<br><br>Yeh order sirf isi browser mein save hua hai. Koi payment ya recharge nahi hua.`;
+ document.getElementById('lookup').value=id;
+});
+document.getElementById('lookupBtn').addEventListener('click',()=>{
+ const id=document.getElementById('lookup').value.trim();const orders=JSON.parse(localStorage.getItem('rudraDemoOrders')||'[]');const o=orders.find(x=>x.id===id);const r=document.getElementById('lookupResult');r.style.display='block';
+ r.textContent=o?`${o.id} · ${o.game} · ${o.package} · ${o.status}`:'Is browser mein yeh demo Order ID nahi mili.';
+});
+</script>
+</body></html>
